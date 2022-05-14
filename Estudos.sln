@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TcpChat", "TcpChat", "{1A14CD6D-CF7F-4D6D-A73E-FFDA777FAD63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpClient", "TcpChat\TcpClient\TcpClient.csproj", "{FCCACE01-8710-4B5D-AF85-AC921E6D3C48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpServer", "TcpChat\TcpServer\TcpServer.csproj", "{4A9FF593-5A5A-460F-9752-6AA2E8925515}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlDeArquivo", "SqlDeArquivo\SqlDeArquivo.csproj", "{71468A53-5ADF-45A6-A61F-BE4744130F1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCCACE01-8710-4B5D-AF85-AC921E6D3C48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCCACE01-8710-4B5D-AF85-AC921E6D3C48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCCACE01-8710-4B5D-AF85-AC921E6D3C48}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FCCACE01-8710-4B5D-AF85-AC921E6D3C48}.Debug|x64.Build.0 = Debug|Any CPU
+		{FCCACE01-8710-4B5D-AF85-AC921E6D3C48}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FCCACE01-8710-4B5D-AF85-AC921E6D3C48}.Debug|x86.Build.0 = Debug|Any CPU
+		{FCCACE01-8710-4B5D-AF85-AC921E6D3C48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCCACE01-8710-4B5D-AF85-AC921E6D3C48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCCACE01-8710-4B5D-AF85-AC921E6D3C48}.Release|x64.ActiveCfg = Release|Any CPU
+		{FCCACE01-8710-4B5D-AF85-AC921E6D3C48}.Release|x64.Build.0 = Release|Any CPU
+		{FCCACE01-8710-4B5D-AF85-AC921E6D3C48}.Release|x86.ActiveCfg = Release|Any CPU
+		{FCCACE01-8710-4B5D-AF85-AC921E6D3C48}.Release|x86.Build.0 = Release|Any CPU
+		{4A9FF593-5A5A-460F-9752-6AA2E8925515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A9FF593-5A5A-460F-9752-6AA2E8925515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A9FF593-5A5A-460F-9752-6AA2E8925515}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4A9FF593-5A5A-460F-9752-6AA2E8925515}.Debug|x64.Build.0 = Debug|Any CPU
+		{4A9FF593-5A5A-460F-9752-6AA2E8925515}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4A9FF593-5A5A-460F-9752-6AA2E8925515}.Debug|x86.Build.0 = Debug|Any CPU
+		{4A9FF593-5A5A-460F-9752-6AA2E8925515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A9FF593-5A5A-460F-9752-6AA2E8925515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A9FF593-5A5A-460F-9752-6AA2E8925515}.Release|x64.ActiveCfg = Release|Any CPU
+		{4A9FF593-5A5A-460F-9752-6AA2E8925515}.Release|x64.Build.0 = Release|Any CPU
+		{4A9FF593-5A5A-460F-9752-6AA2E8925515}.Release|x86.ActiveCfg = Release|Any CPU
+		{4A9FF593-5A5A-460F-9752-6AA2E8925515}.Release|x86.Build.0 = Release|Any CPU
+		{71468A53-5ADF-45A6-A61F-BE4744130F1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71468A53-5ADF-45A6-A61F-BE4744130F1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71468A53-5ADF-45A6-A61F-BE4744130F1B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{71468A53-5ADF-45A6-A61F-BE4744130F1B}.Debug|x64.Build.0 = Debug|Any CPU
+		{71468A53-5ADF-45A6-A61F-BE4744130F1B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{71468A53-5ADF-45A6-A61F-BE4744130F1B}.Debug|x86.Build.0 = Debug|Any CPU
+		{71468A53-5ADF-45A6-A61F-BE4744130F1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71468A53-5ADF-45A6-A61F-BE4744130F1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71468A53-5ADF-45A6-A61F-BE4744130F1B}.Release|x64.ActiveCfg = Release|Any CPU
+		{71468A53-5ADF-45A6-A61F-BE4744130F1B}.Release|x64.Build.0 = Release|Any CPU
+		{71468A53-5ADF-45A6-A61F-BE4744130F1B}.Release|x86.ActiveCfg = Release|Any CPU
+		{71468A53-5ADF-45A6-A61F-BE4744130F1B}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FCCACE01-8710-4B5D-AF85-AC921E6D3C48} = {1A14CD6D-CF7F-4D6D-A73E-FFDA777FAD63}
+		{4A9FF593-5A5A-460F-9752-6AA2E8925515} = {1A14CD6D-CF7F-4D6D-A73E-FFDA777FAD63}
+	EndGlobalSection
+EndGlobal
